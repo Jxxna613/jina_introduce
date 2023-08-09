@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JINA</string>
+    <string name="in_password">비밀번호</string>
+    <string name="in_id">아이디를 입력하세요.</string>
+    <string name="in_text_pw">비밀번호를 입력하세요.</string>
+    <string name="in_login_button">로그인</string>
+    <string name="in_sign_button">회원가입</string>
+    <string name="in_text_id">아이디</string>
+</resources>
