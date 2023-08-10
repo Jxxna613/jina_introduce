@@ -13,14 +13,14 @@
         android:layout_height="120dp"
         android:layout_marginHorizontal="120dp"
         android:layout_marginTop="40dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="65dp"
         android:src="@drawable/person" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
-        android:text="이름"
+        android:text="@string/up_name"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:fontFamily="@font/pretty"
@@ -34,7 +34,7 @@
         android:layout_marginHorizontal="18dp"
         android:layout_marginBottom="10dp"
         android:layout_height="wrap_content"
-        android:hint="이름을 입력하세요."
+        android:hint="@string/up_name_write"
         android:fontFamily="@font/pretty"
         android:textStyle="bold"
         />
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
         android:textColor="@color/black"
-        android:text="아이디"
+        android:text="@string/up_id"
         android:fontFamily="@font/pretty"
         android:textStyle="bold"
         android:textSize="20sp"
@@ -57,7 +57,7 @@
         android:layout_marginHorizontal="18dp"
         android:layout_marginBottom="10dp"
         android:layout_height="wrap_content"
-        android:hint="아이디를 입력하세요."
+        android:hint="@string/up_hint_id"
         android:fontFamily="@font/pretty"
         android:textStyle="bold"
         />
@@ -66,7 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
-        android:text="비밀번호"
+        android:text="@string/up_pw"
         android:textColor="@color/black"
         android:fontFamily="@font/pretty"
         android:textStyle="bold"
@@ -80,7 +80,7 @@
         android:layout_marginHorizontal="18dp"
         android:layout_marginBottom="10dp"
         android:layout_height="wrap_content"
-        android:hint="비밀번호를 입력하세요."
+        android:hint="@string/up_hint_pw"
         android:inputType="textPassword"
         android:fontFamily="@font/pretty"
         android:textStyle="bold"
@@ -90,7 +90,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
-        android:text="나이"
+        android:text="@string/up_age"
         android:textColor="@color/black"
         android:fontFamily="@font/pretty"
         android:textStyle="bold"
@@ -104,7 +104,7 @@
         android:layout_marginHorizontal="18dp"
         android:layout_marginBottom="10dp"
         android:layout_height="wrap_content"
-        android:hint="나이를 작성해주세요."
+        android:hint="@string/up_hint_age"
         android:fontFamily="@font/pretty"
         android:textStyle="bold"
         />
@@ -113,7 +113,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
-        android:text="MBTI"
+        android:text="@string/up_mbti"
         android:textColor="@color/black"
         android:fontFamily="@font/pretty"
         android:textStyle="bold"
@@ -127,7 +127,7 @@
         android:layout_marginHorizontal="18dp"
         android:layout_marginBottom="10dp"
         android:layout_height="wrap_content"
-        android:hint="MBTI를 작성해주세요."
+        android:hint="@string/up_hint_mbti"
         android:fontFamily="@font/pretty"
         android:textStyle="bold"
         />
@@ -136,7 +136,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
-        android:text="좋아하는 것"
+        android:text="@string/up_like"
         android:textColor="@color/black"
         android:fontFamily="@font/pretty"
         android:textStyle="bold"
@@ -148,9 +148,9 @@
         android:layout_width="match_parent"
         android:layout_marginTop="1dp"
         android:layout_marginHorizontal="18dp"
-        android:layout_marginBottom="45dp"
+        android:layout_marginBottom="35dp"
         android:layout_height="wrap_content"
-        android:hint="좋아하는 것을 작성해주세요."
+        android:hint="@string/up_hint_like"
         android:fontFamily="@font/pretty"
         android:textStyle="bold"
         />
@@ -164,7 +164,7 @@
         android:text="회원가입"
         android:textSize="20sp"
         android:fontFamily="@font/pretty"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
+
 
 </LinearLayout>

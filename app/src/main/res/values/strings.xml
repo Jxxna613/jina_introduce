@@ -6,4 +6,16 @@
     <string name="in_login_button">로그인</string>
     <string name="in_sign_button">회원가입</string>
     <string name="in_text_id">아이디</string>
+    <string name="up_name_write">이름을 입력하세요.</string>
+    <string name="up_id">아이디</string>
+    <string name="up_pw">비밀번호</string>
+    <string name="up_hint_id">아이디를 입력하세요.</string>
+    <string name="up_name">이름</string>
+    <string name="up_hint_pw">비밀번호를 입력하세요.</string>
+    <string name="up_age">나이</string>
+    <string name="up_hint_age">나이를 작성해주세요.</string>
+    <string name="up_mbti">MBTI</string>
+    <string name="up_hint_mbti">MBTI를 작성해주세요.</string>
+    <string name="up_like">좋아하는 것</string>
+    <string name="up_hint_like">좋아하는 것을 작성해주세요.</string>
 </resources>
