@@ -16,7 +16,7 @@ class SignUpActivity : AppCompatActivity() {
         val id_view = findViewById<EditText>(R.id.upid)
 
         btn.setOnClickListener {
-            if (areFieldsEmpty()) {
+            if (areFields()) {
                 val intent = Intent(this, SignInActivity::class.java)
                 intent.putExtra("ID", id_view.text.toString())
                 startActivity(intent)

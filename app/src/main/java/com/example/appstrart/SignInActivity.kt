@@ -17,7 +17,7 @@ class SignInActivity : AppCompatActivity() {
         val btn = findViewById<Button>(R.id.btn)
         val id_view = findViewById<EditText>(R.id.inid)
         btn.setOnClickListener {
-            if (areFieldsEmpty()) {
+            if (areFields()) {
                 val intent = Intent(this, HomeActivity::class.java)
                 intent.putExtra("ID", id_view.text.toString())
                 startActivity(intent)
