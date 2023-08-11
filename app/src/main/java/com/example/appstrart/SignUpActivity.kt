@@ -35,8 +35,9 @@ class SignUpActivity : AppCompatActivity() {
         val id = upid.text.toString()
         val pw = uppw.text.toString()
         val mbti = upmbti.text.toString()
+        var like = uplike.text.toString()
 
-        if (name.isEmpty() || id.isEmpty() || pw.isEmpty() || mbti.isEmpty()) {
+        if (name.isEmpty() || id.isEmpty() || pw.isEmpty() || mbti.isEmpty() || like.isEmpty ()) {
             Toast.makeText(this, "입력되지 않은 정보가 있습니다.", Toast.LENGTH_SHORT).show()
             return false
         }
