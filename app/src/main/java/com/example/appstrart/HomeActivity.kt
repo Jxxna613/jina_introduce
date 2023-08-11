@@ -18,13 +18,14 @@ class HomeActivity : AppCompatActivity() {
         btn.setOnClickListener{
             finish()
         }
+        //ID 값 intent 받아오기
         val myID = intent.getStringExtra("ID")
 
         val idTextView = findViewById<TextView>(R.id.idTextView)
 
         idTextView.text = "    ◼   ID : $myID "
 
-
+// 자기소개 랜덤이미지
         val photoImageView = findViewById<ImageView>(R.id.imageView)
 
         val photoResources = arrayOf(
