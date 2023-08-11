@@ -41,7 +41,7 @@ class SignUpActivity : AppCompatActivity() {
             Toast.makeText(this, "입력되지 않은 정보가 있습니다.", Toast.LENGTH_SHORT).show()
             return false
         }
-
+        Toast.makeText(this, "회원가입 완료!", Toast.LENGTH_SHORT).show()
         return true
     }
 }
